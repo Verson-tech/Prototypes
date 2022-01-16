@@ -1,3 +1,4 @@
+// 1. Function factory:
 function makeColor(r,g,b){
     const color = {};
     color.r = r;
@@ -17,3 +18,13 @@ function makeColor(r,g,b){
 
 const firstColor = makeColor(35,255,150)
 firstColor.rgb()
+
+
+// 2. Constructor functions:
+
+function Color(r,g,b){
+    this.r = r;
+    this.g = g;
+    this.b = b;
+}
+// to see the output call    new Color(23,150,50)
