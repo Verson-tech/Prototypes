@@ -27,4 +27,6 @@ function Color(r,g,b){
     this.g = g;
     this.b = b;
 }
-// to see the output call    new Color(23,150,50)
+// to see the output call    new Color(23,150,50)( it, however, is still defined on an individual object, not the prototype)
+
+// for the protoypes --> continue with Udemy's "The WEb Dev bootcamp 2022" Section 29, lecture 298
