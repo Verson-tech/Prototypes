@@ -1,4 +1,4 @@
-#Function Factory
+# Function Factory
 1. rgb --> hex
 ![dev tools console](./Capture.PNG)
 
